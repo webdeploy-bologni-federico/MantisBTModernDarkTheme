@@ -3,17 +3,17 @@
 class MantisBTModernDarkThemePlugin extends MantisPlugin {
 
   function register() {
-    $this->name        = 'MantisBT Modern Dark Theme';
-    $this->description = 'A clean and dark theme for MantisBT.';
+    $this->name        = 'WD MantisBT Dark Theme';
+    $this->description = 'A clean and dark theme for MantisBT based on MantisBT Modern Dark Theme.';
 
     $this->version     = '1.0.1';
     $this->requires    = array(
       'MantisCore'       => '2.0.0',
     );
 
-    $this->author      = 'iKyzu';
-    $this->contact     = 'iKyzu@o2.pl';
-	$this->url         = 'https://github.com/iKyzu';
+    $this->author      = 'webdeploy-bologni-federico';
+    $this->contact     = 'bologni.federico@webdeploy.it';
+	$this->url         = 'https://github.com/webdeploy-bologni-federico';
   }
 
   function hooks() {
