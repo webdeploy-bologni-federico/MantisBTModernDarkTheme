@@ -1,6 +1,6 @@
 <?php
 
-class MantisBTModernDarkThemePlugin extends MantisPlugin {
+class WDMantisDarkThemePlugin extends MantisPlugin {
 
   function register() {
     $this->name        = 'WD MantisBT Dark Theme';
@@ -25,6 +25,7 @@ class MantisBTModernDarkThemePlugin extends MantisPlugin {
   function add_css($p_event) {
       echo '<link rel="stylesheet" type="text/css" href="' . plugin_file('ModernDarkTheme.css') . '" />' . "\n";
       echo '<link rel="stylesheet" type="text/css" href="' . plugin_file('fonts/css/ibm-plex.min.css') . '" />' . "\n";
+      echo '<link rel="stylesheet" type="text/css" href="' . plugin_file('custom.css') . '" />' . "\n";
 
   }
 
