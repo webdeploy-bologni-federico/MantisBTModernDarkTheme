@@ -3,13 +3,46 @@
   height: 100vh;
 }
 
+.widget-body .table-responsive,
+.widget-body .table {
+  background-color: #2d3035 !important;
+  border-bottom-left-radius: 8px !important;
+  border-bottom-right-radius: 8px !important;
+}
+
 .widget-body .table td {
   border-right: solid 1px !important;
-  border-bottom: solid 1px !important;
-  border-color: #7f7f7f !important;
+  border-top: solid 1px !important;
+  border-color: #555 !important;
 }
 
 .widget-body .table {
   border: solid 1px !important;
-  border-color: #7f7f7f !important;
+  border-color: #555 !important;
+  border-bottom-left-radius: 8px !important;
+  border-bottom-right-radius: 8px !important;
+}
+
+.widget-box {
+  box-shadow: 0px 0px 6px 0px rgb(127 127 127 / 70%) !important;
+  border-radius: 8px !important;
+}
+
+.widget-header {
+  border-top-left-radius: 8px !important;
+  border-top-right-radius: 8px !important;
+}
+
+.widget-box,
+.widget-body,
+.widget-body .table-bordered > tbody > tr:last-child,
+/*.widget-body .table-bordered > tbody > tr:last-child > td:last-child,*/
+.widget-main,
+.widget-toolbox {
+  border-bottom-left-radius: 8px !important;
+  border-bottom-right-radius: 8px !important;
+}
+
+.btn-primary {
+  border: solid 1px #555 !important;
 }
