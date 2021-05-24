@@ -2,3 +2,14 @@
 #main-container {
   height: 100vh;
 }
+
+.widget-body .table td {
+  border-right: solid 1px !important;
+  border-bottom: solid 1px !important;
+  border-color: #7f7f7f !important;
+}
+
+.widget-body .table {
+  border: solid 1px !important;
+  border-color: #7f7f7f !important;
+}
